@@ -1,0 +1,136 @@
+.product-carousel{
+    position: relative;
+    overflow: hidden;
+    
+    width: 100vw;
+    height: 100vh;
+    left: 0px;
+
+
+    background: linear-gradient(256.13deg, #F67D48 0%, #C850C0 29.69%, #4158D0 100%);
+}
+.head1 {
+    position: absolute;
+    left: 42vw;
+    right: 43vw;
+    top: 5vh;
+    bottom: 83vh;
+
+
+}
+
+.head1 .heading {
+    /* position: absolute;
+    left: 42vw;
+    right: 43vw;
+    top: 5vh;
+    bottom: 83vh; */
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    /* font-weight: 600;
+font-size: 1.5rem;
+line-height: 1.8rem; */
+
+    color: #FFFFFF;
+}
+.head1 .rectangle {
+    position: absolute;
+    width: 5vw;
+    height: 5px;
+    left: 4vw;
+
+
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.grp562 {
+    box-sizing: border-box;
+    overflow: hidden;
+    
+
+    position: absolute;
+    left: 13vw;
+    right: 13vw;
+    top: 22vh;
+    bottom: 15vh;
+    align-items: center;
+    z-index: 9;
+
+
+
+    background: linear-gradient(180deg, rgba(247, 247, 247, 0.2) 0%, rgba(247, 247, 247, 0) 105.28%);
+    border-top: 1px solid rgba(238, 238, 238, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+}
+.ellipse4 {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 79vw;
+    right: 5vw;
+    top: 18vh;
+    bottom: 49vh;
+
+    background: linear-gradient(90deg, #FFFFFF -126.33%, rgba(255, 255, 255, 0) 91.81%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    
+    border-radius: 50%;
+
+}
+
+.ellipse3 {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 7vw;
+    right: 74vw;
+    top: 58vh;
+    bottom: 6vh;
+
+    background: linear-gradient(255deg, #FFFFFF -126.33%, rgba(255, 255, 255, 0) 91.81%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 50%;
+}
+
+
+.product-container{
+    padding: 0 10px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+.pre-btn,.next-btn{
+    border: none;
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+.next-btn{
+    right: 0;
+}
+.next-btn p,.pre-btn p{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.436);
+    box-shadow: 0px 0px 10px 1px black;
+    border-radius: 10px;
+    color: black;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
