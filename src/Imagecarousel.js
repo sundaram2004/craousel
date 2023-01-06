@@ -44,11 +44,11 @@ const Imagecarousel = () => {
             </div>
 
 
-            {/* <div class="ellipse4">
+            <div class="ellipse4">
 
             </div>
             <div class="ellipse3">
-            </div> */}
+            </div>
         </div>
     )
 }
