@@ -1,7 +1,7 @@
 {
   "name": "myreact",
   "version": "0.1.0",
-  "homepage": "https://sundaram2004.github.io/myreact",
+  "homepage": "https://sundaram2004.github.io/craousel",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
